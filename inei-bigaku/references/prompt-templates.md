@@ -11,7 +11,7 @@
 1. Gemini：境界一【残光・清寂】
 2. Gemini：境界二【金幽・絢爛】
 3. Gemini：現代都市・夜
-4. Gemini：主題を保つ場合（人物・「構図はそのまま」の指定）
+4. Gemini：主題を保つ場合（「構図はそのまま」の指定）
 5. 修正の指示
 6. Midjourney
 7. Stable Diffusion / Flux（img2img）
@@ -90,15 +90,16 @@ Avoid: neon, cyberpunk, harsh contrast, HDR, cold blue tint, a flat underexposed
 ```
 **日本語要約**：照明を消して一灯のタングステン光だけに。{アンカー}と{刺点}以外は闇へ。文字は読めなくする。深緑と焦茶の影、濡れた反射、低彩度。
 
-## 4. Gemini：主題を保つ場合（人物・「構図はそのまま」の指定）
+## 4. Gemini：主題を保つ場合（「構図はそのままで」の指定）
 
 1〜3のどれかの雛形の Composition を、次に差し替える。
 
 ```
-Composition: keep the original framing, and keep {the person's face, features, expression and age} exactly the same.
-Subtraction happens only through light: {background, clothing, other people and objects} sink into deep shadow so they are barely sensed.
+Composition: keep the original framing and all main elements in place.
+Subtraction happens only through light: {background and secondary objects} sink into deep shadow so they are barely sensed.
 ```
-人物の刺点の例：`warm translucent glow at the edge of the ear and fingertips (subsurface scattering)`、`a single small catchlight in one eye`
+
+**人物が写っている場合は、この節ではなく `portrait.md` の雛形（撮り方A／B／C）を使う。** 物の雛形のまま人物に当てると、肌の汚れ・青白い顔・ホラー化が起きやすい。
 
 ## 5. 修正の指示（2回目以降）
 
@@ -110,6 +111,7 @@ Subtraction happens only through light: {background, clothing, other people and 
 | 光がぎらつく | `Increase specular roughness: highlights smaller, softer and warmer, like candlelight on old lacquer.` |
 | ホラーっぽい | `Make the mood calm and tender, not eerie; warm the shadows toward brown and amber.` |
 | オレンジ一色になった | `Reduce saturation; keep the warmth only near the light source and let the shadows go to neutral lacquer-black.` |
+| 人物がホラー・生首・顔色が悪い | `portrait.md` §7 の修正指示を使う |
 | 和の小道具が足された | `Remove the added {props}; keep only what was in the original photo.` |
 
 ## 6. Midjourney
