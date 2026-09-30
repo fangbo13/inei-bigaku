@@ -17,6 +17,7 @@
 │       ├── aesthetics.md                 # 《阴翳礼赞》美学原理与题材对照表
 │       ├── masters.md                    # 视觉大师参照（王家卫、宫川一夫、霍珀等）
 │       ├── optics-and-palette.md         # 文学到光学渲染语言对照表与色彩规范
+│       ├── portrait.md                   # 人像阴翳规范（避免恐怖谷、次表面暖光与电影构图）
 │       └── prompt-templates.md           # Gemini / Midjourney / SD 专属提示词模板
 ├── inei-bigaku.skill                     # 打包分发文件
 └── README.md
