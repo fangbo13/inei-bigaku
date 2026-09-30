@@ -6,9 +6,34 @@
 
 ---
 
+## 效果展示（Before & After）
+
+### 1. 茶席与器物（Still Life & Teaware）
+> *剥离现代商业棚拍的平光泛白，以障子侧光唤醒白瓷温润的开片肌理，杯盏盛茶，沉入老木深暗。*
+
+| 转换前（原片：电商平铺陈列） | 转换后（阴翳美学：境界一·残光清寂） |
+| :---: | :---: |
+| <img src="assets/teaset-before.jpg" width="450" alt="茶具原片" /> | <img src="assets/teaset-after.jpg" width="450" alt="阴翳茶具" /> |
+
+---
+
+### 2. 食之阴翳·日式定食（Food & Teishoku）
+> *谷崎在《阴翳礼赞》中感叹：“白饭盛于黑漆器中，在暗处泛出珍珠般微光；若置于白盘强光下，便索然无味”。撤去餐厅均质荧光，令米饭与汤肴的温度在深沉暗影中复苏。*
+
+| 转换前（原片：餐厅顶灯日光） | 转换后（阴翳美学：幽暗中的滋味） |
+| :---: | :---: |
+| <img src="assets/teishoku-before.jpg" width="450" alt="定食原片" /> | <img src="assets/teishoku-after.jpg" width="450" alt="阴翳定食" /> |
+
+---
+
 ## 目录结构
 
 ```text
+├── assets/                               # 效果展示图片
+│   ├── teaset-before.jpg
+│   ├── teaset-after.jpg
+│   ├── teishoku-before.jpg
+│   └── teishoku-after.jpg
 ├── inei-bigaku/
 │   ├── SKILL.md                          # 技能主指令与核心规范
 │   ├── evals/
